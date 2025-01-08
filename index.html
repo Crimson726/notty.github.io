@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Page Loader</title>
+    <link rel="stylesheet" type="text/css" href="css/fry.css">
+</head>
+<body>
+    <section>
+        <div class="loader"></div>
+        <div class="count"></div>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var count = 0;
+            var counter = setInterval(function() {
+                if (count < 101) {
+                    $('.count').text(count + '%');
+                    $('.loader').css('width', count + '%');
+                    count++;
+                } else {
+                    clearInterval(counter);
+                    $('section').fadeOut(500, function() {
+                        $('.spinning-image').fadeIn(500); // Show spinning image after loader fades out
+                    });
+                }
+            }, 100);
+        });
+    </script>
+</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Notty</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__navbar">
+        <div class="header__head">
+          <div class="header__logo">
+            <img src="/assets/ntry.png" alt="Teletubbies" />
+          </div>
+
+          <h2>NOTTY</h2>
+        </div>
+
+        <div class="header__menu">
+          <ul>
+            <li>About </li>
+            <li>Contact</li>
+            <li>    <a href="https://t.me/nottycoinoriginal">Telegram</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__content item">
+        <div class="hero__info">
+          <h1>
+            Welcome to the era of Notty! Here to take the meme world by storm ⚡️⚡️⚡️
+          </h1>
+          <button class="buyme">coming soon</button>
+        </div>
+      </div>
+      <div class="hero__design item">
+        <div class="hero__image">
+          <img id="anim" src="\assets\elon.png" alt="Teletubbies" />
+        </div>
+      </div>
+    </section>
+
+    <section class="Meet Notty">
+      <div class="Meet Notty__heading">
+
+      </div>
+      <div class="Meet Notty__image">
+        <img src="./assets/tb-removebg-preview.png" alt="Meet Notty!" />
+      </div>
+      <div class="Meet Notty__content">
+        <div class="Meet Notty__info">
+          <h3 class="heading__orange"> Meet Notty, A dog for the dawgs</h3>
+          <p>
+            <img src="/assets/ntry.png" alt="Teletubbies" />
+          </p>
+        </div>
+        <div class="Meet Notty__info">
+          <h3 class="heading__pink">Discover a brand new world, Explore beyond the Horizon</h3>
+          <p>
+            Uncover the revolutionary power of our cyberpunk canine-themed crypto memes, exploring their role in simplifying complex concepts and driving mainstream interest in cryptocurrencies, fostering a broader understanding of blockchain technology.
+          </p>
+        </div>
+        <div class="Meet Notty__info">
+          <h3 class="heading__seahorse">Defi Show Tribute</h3>
+          <p>
+            <div class="header__logo">
+              <img src="/assets/rrr.png" alt="Teletubbies" />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="howtobuy">
+      <div class="column howtobuy__heading">
+        <h2>Galleria de <span class="highlight__color">$NOTTY</span></h2>
+        <div class="howtobuy__heading-image">
+          <img src="./assets/tothemoon-removebg-preview.png" alt="tothemoon" />
+        </div>
+
+    <div class="howtobuy">
+        <div class="howtobuy__heading-images">
+            <img src="./assets/goldennotty.png" alt="Image 1" class="image-left" />
+            <img src="./assets/NottyGroot.png" alt="Image 2" class="image-center" />
+            <img src="./assets/rrr.png" alt="Image 3" class="image-left" />
+        </div>
+           
+    </section>
+
+    <section class="Upcoming">
+      <h2> Upcoming Projects</h2>
+
+      <div class="Upcoming__content">
+        <div class="Upcoming__column">
+          <div class="Upcoming__info">
+            <img src="./assets/token.png" alt="" width="32" />
+            <h3>$NOTTY Token</h3>
+            <p>Token Symbol</p>
+          </div>
+          <div class="Upcoming__info">
+            <img src="./assets/supply-chain.png" alt="" width="32" />
+            <h3>NFT Collection</h3>
+            <p>An Exclusive for the community </p>
+          </div>
+        </div>
+        <div class="Upcoming__column">
+          <div class="Upcoming__info">
+            <img src="./assets/icons8-cloud-48.png" alt="" width="32">
+            <h3>Notty Bot</h3>
+            <p>Interactive and Immersive</p>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="Moon">
+      <h2>Take a Look at me</h2>
+      <div class="Moon__image">
+        <img src="./assets/burns.png" alt="burns" />
+      </div>
+      <h2>Not Him, ME!</h2>
+      <div class="Moon__image">
+        <img src="./assets/rich notty.png" alt="elon" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright<span>&#169;</span> 2025 Notty. All rights reserved</p>
+      <ul>
+        <li>
+          <a href="https://x.com/Nottycoin">
+            <img src="./assets/X.png" alt="" />
+          </a>
+        </li>
+          <a href="https://t.me/nottycoinoriginal">
+            <img src="./assets/telegram.png" alt="" />
+          </a>
+        </li>
+        <a href="">
+          <img src="./assets/discord.png" alt="" />
+        </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
