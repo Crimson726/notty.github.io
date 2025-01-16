@@ -1,0 +1,32 @@
+.Upcoming h2 {
+    text-align: center;
+}
+
+.Upcoming img {
+    display: inline-block;
+}
+
+.Upcoming__content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Upcoming__column {
+    flex-basis: 300px;
+}
+
+.Upcoming__info {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+    border: 2px solid crimson;
+    box-shadow: 0 0 10px 0 crimson;
+}
+
+.Upcoming__info:hover {
+    color: crimson;
+    border-color: aliceblue;
+    box-shadow: 0 0 10px 0 var(--highlight-color);
+}

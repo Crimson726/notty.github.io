@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import url("normalize.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("MeetNotty.css");
+@import url("howtobuy.css");
+@import url("Upcoming.css");
+@import url("moon.css");
+@import url("footer.css");
+@import url("mediaqueries.css");
+
+html {
+    font-size: 25px; /* Base font size */
+}
+
+body {
+    background-color: #e0dada; /* Fallback color */
+    background-image: url('../assets/bggimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Set the font color to white */
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font to the body */
+}
+
+:root {
+    --open-sans: 'Open Sans', sans-serif; /* Define Open Sans as a variable */
+    --info-color: #ffffff; /* Keep this or change as needed */
+    --heading-orange: #D55F46; /* Example color */
+    --heading-pink: #D432A3; /* Example color */
+    --heading-seahorse: #48C7B8; /* Example color */
+    --highlight-color: #00FECE; /* Example color */
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    font-family: var(--open-sans); /* Use Open Sans for headings */
+    color: #ffffff; /* Set heading color to white */
+}
+
+p, li {
+    font-family: var(--open-sans); /* Use Open Sans for paragraphs and list items */
+    color: #ffffff; /* Set paragraph color to white */
+}
+
+section {
+    padding-bottom: 5rem; /* Adjust for responsiveness if needed */
+}
+
+h1 {
+    font-size: 3rem; /* Consider using a relative unit */
+}
+
+h2 {
+    font-size: 2.3rem; /* Consider using a relative unit */
+}
+
+h1, h2 {
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+img {
+    filter: drop-shadow(0 0 10px crimson);
+}
+
+h3 {
+    font-size: 1.2rem; /* Consider using a relative unit */
+}
+
+.heading__orange {
+    color: var(--heading-orange); /* This will use the updated color */
+    font-size: 2rem; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    line-height: 1.5; /* Adjust line height for better readability */
+    overflow-wrap: break-word; /* Allow long words to break and wrap onto the next line */
+    word-wrap: break-word; /* Legacy support for older browsers */
+    white-space: normal; /* Allow text to wrap normally */
+}
+
+
+.heading__pink {
+    color: var(--heading-pink); /* This will use the updated color */
+}
+
+.heading__seahorse {
+    color: var(--heading-seahorse); /* This will use the updated color */
+}
+
+.highlight__color {
+    color: var(--highlight-color); /* This will use the updated color */
+}

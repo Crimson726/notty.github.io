@@ -1,0 +1,28 @@
+footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid whitesmoke;
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+footer ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the list items */
+}
+
+footer li {
+    margin: 0 10px; /* Space between icons */
+}
+
+.footer-icon {
+    width: 50px; /* Set a fixed width for icons */
+    height: 50px; /* Set a fixed height for icons */
+    object-fit: cover; /* Maintain aspect ratio */
+}
